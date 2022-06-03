@@ -245,7 +245,7 @@ body.active :is(.card-xl,.card-l):hover {
     display: flex;
     justify-content: space-between;
   }
-  header > div:nth-child(1) {
+  header > div:nth-child(1), body.active header > div:nth-child(1) {
     padding-bottom: 0px;
     border-bottom: none;
   }
